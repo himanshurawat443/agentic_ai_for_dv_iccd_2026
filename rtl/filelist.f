@@ -1,0 +1,10 @@
+rtl/dsp_pkg.sv
+rtl/dsp_fifo.sv
+rtl/dsp_rndsat.sv
+rtl/dsp_regs.sv
+rtl/dsp_gain.sv
+rtl/dsp_fir.sv
+rtl/dsp_decim.sv
+rtl/dsp_limit.sv
+rtl/dsp_stats.sv
+rtl/dsp_stream.sv
