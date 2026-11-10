@@ -1,0 +1,14 @@
+id: design-1
+title: "Streaming fixed-point sample conditioner"
+top: dsp_stream
+clock_port: clk
+reset_port: rst_n
+reset_active: low
+reset_type: async
+clock_period_ns: 15.0
+hdl: systemverilog
+filelist: rtl/filelist.f      # paths inside are relative to the design root
+sim: verilator
+public_tests: tb/public       # cocotb, run with: make -C tb/public
+constraint: flow/constraint.sdc
+lines: 870                 # lines of RTL in rtl/ (baseline)
